@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study MBBS Abroad</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100">
+
+    <!-- Hero Section -->
+    <section class="relative bg-cover bg-center h-screen flex items-center justify-center text-white" style="background-image: url('alexandr-podvalny-tE7_jvK-_YU-unsplash.jpg');">
+        <div class="text-center bg-black bg-opacity-50 p-10 rounded-lg">
+            <h1 class="text-4xl font-bold mb-4">Apply Now for MBBS Abroad!</h1>
+            <p class="text-lg mb-6">Affordable tuition, globally recognized degrees, and world-class education.</p>
+            <a href="#lead-form" class="bg-yellow-500 hover:bg-yellow-600 text-black px-6 py-3 rounded-lg font-semibold">Get Free Consultation</a>
+        </div>
+    </section>
+
+    <!-- About why to study in these places  -->
+    <section class="py-16 bg-white text-center">
+        <h2 class="text-3xl font-bold mb-6">Why Study MBBS Abroad?</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 px-6">
+            <div class="p-6 bg-gray-200 rounded-lg shadow-md">
+                <h3 class="font-semibold text-xl">Affordable Fees</h3>
+                <p>Save up to 70% compared to Western countries.</p>
+            </div>
+            <div class="p-6 bg-gray-200 rounded-lg shadow-md">
+                <h3 class="font-semibold text-xl">Globally Recognized</h3>
+                <p>Degrees recognized by WHO, NMC, and more.</p>
+            </div>
+            <div class="p-6 bg-gray-200 rounded-lg shadow-md">
+                <h3 class="font-semibold text-xl">English Medium</h3>
+                <p>Courses are taught in English for easy learning.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Top Countries for MBBS -->
+    <section class="py-16 bg-gray-100 text-center">
+        <h2 class="text-3xl font-bold mb-6">Top Countries for MBBS</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 px-6">
+            <div class="p-6 bg-white rounded-lg shadow-md">
+                <h3 class="font-semibold">Australia</h3>
+                <p>Affordable and high-quality education.</p>
+            </div>
+            <div class="p-6 bg-white rounded-lg shadow-md">
+                <h3 class="font-semibold">India</h3>
+                <p>Great infrastructure and practical training.</p>
+            </div>
+            <div class="p-6 bg-white rounded-lg shadow-md">
+                <h3 class="font-semibold">USA</h3>
+                <p> US-based curriculum with English teaching.</p>
+            </div>
+            <div class="p-6 bg-white rounded-lg shadow-md">
+                <h3 class="font-semibold">China</h3>
+                <p>Cost-effective with globally recognized degrees.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admission Process -->
+    <section class="py-16 bg-white text-center">
+        <h2 class="text-3xl font-bold mb-6">Admission Process & Eligibility</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 px-6">
+            <div class="p-6 bg-gray-200 rounded-lg shadow-md">
+                <h3 class="font-semibold text-xl">Admission Steps</h3>
+                <ul class="text-left list-disc list-inside">
+                    <li>Submit your application</li>
+                    <li>Receive university confirmation</li>
+                    <li>Process your student visa</li>
+                    <li>Fly to your destination!</li>
+                </ul>
+            </div>
+            <div class="p-6 bg-gray-200 rounded-lg shadow-md">
+                <h3 class="font-semibold text-xl">Eligibility Criteria</h3>
+                <ul class="text-left list-disc list-inside">
+                    <li>High school completion (Science stream)</li>
+                    <li>Minimum 50% marks in PCB</li>
+                    <li>No entrance exams required for most universities</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lead Form -->
+    <section id="lead-form" class="py-16 bg-gray-100">
+        <h2 class="text-3xl font-bold text-center mb-6">Get a Free Consultation</h2>
+        <div class="max-w-md mx-auto bg-white p-6 rounded-lg shadow-md">
+            <form id="contactForm">
+                <div class="mb-4">
+                    <label class="block text-gray-700 font-semibold mb-2">Full Name</label>
+                    <input type="text" id="name" class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-yellow-400">
+                    <p class="text-red-500 text-sm hidden" id="nameError">Name is required.</p>
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700 font-semibold mb-2">Email</label>
+                    <input type="email" id="email" class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-yellow-400">
+                    <p class="text-red-500 text-sm hidden" id="emailError">Valid email is required.</p>
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700 font-semibold mb-2">Phone Number</label>
+                    <input type="text" id="phone" class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-yellow-400">
+                    <p class="text-red-500 text-sm hidden" id="phoneError">Phone number is required.</p>
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700 font-semibold mb-2">Preferred Country</label>
+                    <select id="country" class="w-full px-4 py-2 border rounded-lg">
+                        <option value="">Select Country</option>
+                        <option>Australia </option>
+                        <option>India</option>
+                        <option>USA</option>
+                        <option>China</option>
+                    </select>
+                </div>
+                <button type="submit" class="w-full bg-yellow-500 text-black font-bold py-2 rounded-lg hover:bg-yellow-600">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <script>
+        document.getElementById("contactForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            let isValid = true;
+
+            const name = document.getElementById("name").value.trim();
+            const email = document.getElementById("email").value.trim();
+            const phone = document.getElementById("phone").value.trim();
+
+            document.getElementById("nameError").classList.toggle("hidden", name !== "");
+            document.getElementById("emailError").classList.toggle("hidden", email.includes("@"));
+            document.getElementById("phoneError").classList.toggle("hidden", phone !== "");
+
+            if (name === "" || !email.includes("@") || phone === "") {
+                isValid = false;
+            }
+
+            if (isValid) {
+                alert("Form submitted successfully!");
+            }
+        });
+    </script>
+
+</body>
+
+</html>
