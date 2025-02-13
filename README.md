@@ -52,8 +52,7 @@ A section dedicated to outlining the key benefits of pursuing an MBBS degree abr
 
 3. Top Countries
 
-This section displays the best destinations for MBBS studies, including India, USA, Australia , China, Georgia, Kyrgyzstan, and Egypt. Each country is represented with a simple card layout, making it visually appealing and easy to scan.
-
+This section displays the best destinations for MBBS studies, including Russia, Uzbekistan, Kazakhstan, Philippines, Georgia, Kyrgyzstan, and Egypt. Each country is represented with a simple card layout, making it visually appealing and easy to scan.
 4. Admission Process & Eligibility
 
 A step-by-step guide helps prospective students understand the admission process. This section uses ordered lists and icons to break down complex information into an easy-to-read format.
